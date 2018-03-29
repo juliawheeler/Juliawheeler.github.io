@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style>
+
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+    li {
+    float: left;
+    border-right:1px solid #bbb;
+    }
+
+    li:last-child {
+    border-right: none;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+    background-color: #111;
+    }
+
+    .active {
+    background-color: #4CAF50;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    li {
+    display: inline;
+    }
+
+    #Contact {
+        color: black;
+        background-color: greenyellow;
+        font: 25px monospace;
+        }
+    </style>
+</head>
+<body>
+<ul>
+
+    <li><a href="Weather">Weather</a></li>
+    <li><a href="TV Shows">TV Shows</a></li>
+    <li><a href="Word Guessing Game">Word Guessing Game</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="Travel">Travel</a></li>
+</ul>
+<p id="Contact"> You can contact me via email:<br>
+<strong>julia.wheeler0@gmail.com</strong></p>
+<img src="https://cdn4.iconfinder.com/data/icons/simple-soft/512/open_mail-512.png" alt="email" width= 250">
+</body>
+</html>
